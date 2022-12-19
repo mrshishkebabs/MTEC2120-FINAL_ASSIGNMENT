@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &752367356
 Light:
   m_ObjectHideFlags: 0
@@ -5312,6 +5312,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 0df968af-9abe-47bd-be68-485a04a1829e
     m_ActionName: gameplay/Action2[/Keyboard/l]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ccaf8587-4fbf-4e88-89e5-ce5fd7012933
+    m_ActionName: gameplay/destroy[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: gameplay
@@ -5326,14 +5330,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7279796982563314049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0923a5a14f884859a39872d225d9c72b, type: 3}
+  m_Script: {fileID: 11500000, guid: f77621b3de920784789329cebf341e02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
   rotateSpeed: 60
   burstSpeed: 10
   projectile: {fileID: 1050929111787496, guid: 4be9e6cdd2d5d499ca5c16cc83fdf790, type: 3}
-  ps: {fileID: 1678289923}
 --- !u!4 &7283255547635044647
 Transform:
   m_ObjectHideFlags: 0
